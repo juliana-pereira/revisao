@@ -1,0 +1,44 @@
+body{
+    background-color:aqua;
+}
+.box1{
+    height: 800px;
+    display: grid;
+    width: auto;
+    grid-template-areas: "topo topo topo"
+                         "menu main right"
+                         "menu rod rod";
+    grid-template-rows: 120px 1fr 300px;
+    grid-template-columns: 200px 1fr 500px;
+    gap: 10px;
+}
+
+.HEADER{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: topo;
+}
+
+.MENU{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: menu;
+}
+
+.MAIN{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: main;
+}
+
+.RIGHT{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: right;
+}
+
+.FOOTER{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}

@@ -1,0 +1,70 @@
+body{
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.box{
+    height: 720px;
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.d1{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+    width: 400px;
+}
+
+.d2{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+    width: 400px;
+}
+
+.d3{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+    width: 400px;
+}
+
+.d4{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.d5{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.d6{
+    background-color: rgb(89, 188, 230);
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 60px;
+}
+
+
+
+
+
