@@ -1,0 +1,134 @@
+/* body{
+    background-color:aqua;
+}
+.box1{
+    height: 800px;
+    display: grid;
+    width: auto;
+    grid-template-areas: "d1 d8 d8 d8 d8 d2"
+                         "d3 d8 d8 d8 d8 d4"
+                         "d"
+                         "menu main right"
+                         "rod rod rod";
+    grid-template-rows: 120px 1fr 300px;
+    grid-template-columns: 200px 1fr 500px;
+    gap: 10px;
+}
+
+.d1{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: topo;
+}
+
+.d2{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: menu;
+}
+
+.d3{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: main;
+}
+
+.d4{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: right;
+}
+
+.d5{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d5{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d6{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d7{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d8{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d9{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d10{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d11{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d12{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d13{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d14{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+.d15{
+    background-color: rgb(89, 188, 230);
+    font-size: 15px;
+    grid-area: rod;
+}
+
+ */
+
+ .box1{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: lightpink;
+    padding: 50px;
+ }
+
+ .box1 > div{
+    background-color: blueviolet;
+    border: white 2px solid;
+    text-align: center;
+    font-size: 50px;
+ }
+
+ .d8{
+    grid-row: 1 / 5;
+    grid-column: 2 / 6;
+ }
