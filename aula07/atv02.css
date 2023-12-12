@@ -51,12 +51,52 @@
     gap: 3px;
 }
 
-.cd > div {
+
+.cd .p5{
     background-color: rgb(160, 2, 55);
-    text-align: center;
-    font-size: 50px;
+    grid-area: p5;
 }
 
+.cd .p6{
+    background-color: rgb(160, 2, 55);
+    grid-area: p6
+}
+
+.cd .p7{
+    background-color: rgb(160, 2, 55);
+    grid-area: p7;
+}
+.cd .p7 p{
+    background-color: rgb(153, 218, 153);
+}
+
+.cd .p8{
+    background-color: rgb(160, 2, 55);
+    grid-area: p8;
+}
+
+.cd .p9{
+    background-color: rgb(160, 2, 55);
+   grid-area: p9;
+}
+
+.cd .p10{
+    background-color: rgb(160, 2, 55);
+    grid-area: p10;
+}
+.cd .p10 p{
+    background-color: pink;
+}
+
+.cd .p11 {
+    background-color: rgb(160, 2, 55);
+    grid-area: p11;
+}
+
+.cd .p12{
+    background-color: rgb(160, 2, 55);
+    grid-area: p12;
+}
 
 .rod{
     background-color: rgb(88, 151, 210);
