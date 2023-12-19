@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+
+.box{
+    height: 700px;
+    display: grid;
+    grid-template-areas: "header header"
+                         "main lateral"
+                         "rodape rodape";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+}
+
+.header{
+    background-color:rgb(154, 154, 242);
+    grid-area: header;
+    
+}
+
+.lateral{
+    background-color: pink;
+    grid-area: lateral;
+    
+}
+
+.main{
+    background-color: rgb(243, 243, 109);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+
+.rod{
+    background-color: rgb(253, 212, 134);
+    grid-area: rodape;
+    display: flex;
+}
+
+.rod1, .rod2, .rod3{
+    width: 100%;
+    background-color: rgb(128, 203, 128);
+    height: 100%;
+}
+
+.rod2{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.div1, .div2, .div3{
+    width: 100%;
+    background-color: rgb(230, 230, 121);
+    height: 33.333%;
+}
+
+.div2{
+    background-color: rgb(199, 162, 235);
+    height: 168px;
+}
